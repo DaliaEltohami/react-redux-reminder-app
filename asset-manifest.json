@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-redux-reminder-app/static/css/main.96d09278.css",
+    "main.js": "/react-redux-reminder-app/static/js/main.ea6d78f8.js",
+    "static/media/reminder.png": "/react-redux-reminder-app/static/media/reminder.27a555b52bcdbf2059e1.png",
+    "index.html": "/react-redux-reminder-app/index.html",
+    "main.96d09278.css.map": "/react-redux-reminder-app/static/css/main.96d09278.css.map",
+    "main.ea6d78f8.js.map": "/react-redux-reminder-app/static/js/main.ea6d78f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96d09278.css",
+    "static/js/main.ea6d78f8.js"
+  ]
+}
