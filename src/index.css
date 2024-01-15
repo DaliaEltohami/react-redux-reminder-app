@@ -1,13 +1,67 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #831111;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  background: #27275e;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  color: white;
+  /* text-align: center; */
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.app-title {
+  margin: 20px 0;
+  text-decoration: underline;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input,
+button {
+  margin: 10px 0;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: block;
+}
+
+.react-datepicker__input-container input {
+  border: none;
+  display: inline-block;
+  width: 30%;
+}
+
+.list-item {
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.btn-remove-wrapper {
+  align-items: center;
+}
+
+.btn-remove {
+  border-radius: 50%;
+  /* float: right;
+  width: 20%; */
+}
+
+.reminder-info {
+  /* width: 80%;
+  float: left; */
 }
